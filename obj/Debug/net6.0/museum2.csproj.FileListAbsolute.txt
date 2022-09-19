@@ -1,0 +1,15 @@
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\bin\Debug\net6.0\museum2.exe
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\bin\Debug\net6.0\museum2.deps.json
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\bin\Debug\net6.0\museum2.runtimeconfig.json
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\bin\Debug\net6.0\museum2.dll
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\bin\Debug\net6.0\museum2.pdb
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\obj\Debug\net6.0\museum2.csproj.AssemblyReference.cache
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\obj\Debug\net6.0\museum2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\obj\Debug\net6.0\museum2.AssemblyInfoInputs.cache
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\obj\Debug\net6.0\museum2.AssemblyInfo.cs
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\obj\Debug\net6.0\museum2.csproj.CoreCompileInputs.cache
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\obj\Debug\net6.0\museum2.dll
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\obj\Debug\net6.0\refint\museum2.dll
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\obj\Debug\net6.0\museum2.pdb
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\obj\Debug\net6.0\museum2.genruntimeconfig.cache
+C:\Users\DenThu\Documents\NEWSUVNET22\museum2\obj\Debug\net6.0\ref\museum2.dll
