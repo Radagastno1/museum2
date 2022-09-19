@@ -75,7 +75,7 @@
          {
          Console.WriteLine();
          Console.WriteLine("Se Saltwater Evaporate: tryck [A]");
-         Console.WriteLine("Cafét: tryck [B]");
+         Console.WriteLine("Cafét: tryck pil höger");
          Console.WriteLine("Lämna: tryck [E]");
 
          key = Console.ReadKey().Key;
@@ -93,7 +93,7 @@
 
               break;
 
-              case ConsoleKey.B:
+              case ConsoleKey.RightArrow:
               EnterCafe();
               break;
 
