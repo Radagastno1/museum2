@@ -2,6 +2,7 @@
 {
     private static void Main(string[] args)
     {
+        // Man går in i museet.
         Console.WriteLine("____________________________________");
         Console.WriteLine();
         Console.WriteLine("Välkommen till TOBACCO & SALT MUSEUM");
@@ -12,7 +13,7 @@
         Thread.Sleep(1000);
         Console.WriteLine("Oh slutet av korridoren!");
         Console.WriteLine();
-
+        // I den här metoden kommer hela menyn med samtliga val
         while(true)
         {
           
@@ -21,7 +22,7 @@
         }
     }
 
-    static void EnterExhibitionhall2()
+    static void EnterExhibitionhall2() //Tar oss in i EH2 med samtliga val
     {
         var key = ConsoleKey.A;
         Console.Clear();
@@ -50,7 +51,8 @@
         break;
 
         case ConsoleKey.E:
-        ReadMeny();
+        ReadMeny();// Om användaren trycker på E så anropas ReadMeny() 
+                    //och användaren kommer till huvudmenyn igen
         break;
         
         
@@ -61,7 +63,7 @@
             
     }
 
-     static void EnterExhibitionhall1()
+     static void EnterExhibitionhall1() //Tar oss till EX1 med samliga val
     {
         var key = ConsoleKey.UpArrow;
         
@@ -104,7 +106,7 @@
        
     }
 
-    static void EnterCafe()
+    static void EnterCafe() // Tar oss till cafeet med samtlia val
     {
         var key = ConsoleKey.UpArrow;
         Console.Clear();
@@ -123,7 +125,9 @@
               case ConsoleKey.A:
               Console.Clear();
               Console.WriteLine("O []  Här fick du en kaka och en saft!");
-              Thread.Sleep(3000);
+              Thread.Sleep(1000);
+              Console.WriteLine("NAM NAM NAM NAM.....");
+              Thread.Sleep(2000);
               Console.WriteLine("Slut på fikat");
               Thread.Sleep(1000);
              
@@ -147,9 +151,9 @@
 
     }
 
-    static void EnterGiftShop()
+    static void EnterGiftShop() //Tar oss till giftshop med samtliga val
     {
-        Console.Clear();
+        Console.Clear();  //Rensar tidgare utskrift i terminalen
         Console.WriteLine("G I F T S H O P");
         Console.WriteLine("__________");
         Console.WriteLine("[1] Pipa - 1000 kr ");
@@ -161,10 +165,13 @@
         Console.WriteLine("OJ, giftshop stänger! Vänta ska jag kolla med personalen...");
         Thread.Sleep(3000);
         Console.WriteLine("Personalen skickar ut dig till cafeet igen, attans!");
+        Thread.Sleep(3000);
         EnterCafe();
         
     }
-    static void ReadMeny()
+    static void ReadMeny() //Detta är hela huvudmenyn. man kommer till alla rum från den och även tillbaka
+                            //Valde detta alternativet för att kunna återgå från cafeet till valen ochinte
+                            //till senaste rum, då det var svårt att få till den nästlade metodformen, HUUUUURR GÖÖÖRA MAN?
     {
          Console.Clear();
          Console.WriteLine("Exhibitionshall 1: TRYCK pil rakt fram");
@@ -188,6 +195,7 @@
                 }
                 else if(key == ConsoleKey.DownArrow)
                 {
+                    Console.WriteLine("Hej då och välkommen åter");
                     Environment.Exit(0);
                 }
 
